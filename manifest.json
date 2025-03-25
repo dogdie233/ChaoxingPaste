@@ -3,7 +3,7 @@
   "name": "ChaoxingPaste",
   "version": "1.0",
   "description": "Paste images from clipboard to Chaoxing quiz answer form.",
-  "permissions": ["storage", "activeTab", "clipboardRead"],
+  "permissions": ["clipboardRead"],
   "content_scripts": [
     {
       "matches": [
