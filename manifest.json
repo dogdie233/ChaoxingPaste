@@ -15,5 +15,8 @@
       "run_at": "document_end",
       "all_frames": true
     }
-  ]
+  ],
+  "icons": {
+    "128": "icons/128.png"
+  }
 }
