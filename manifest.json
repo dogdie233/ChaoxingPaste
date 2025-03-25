@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "ChaoxingPaste",
+  "version": "1.0",
+  "description": "Paste images from clipboard to Chaoxing quiz answer form.",
+  "permissions": ["storage", "activeTab", "clipboardRead"],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://mobilelearn.chaoxing.com/page/quiz/stu/reAnswerQuestion*",
+        "*://mobilelearn.chaoxing.com/page/quiz/stu/answerQuestion*"
+      ],
+      "js": ["content.js"],
+      "world": "MAIN",
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ]
+}

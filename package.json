@@ -1,0 +1,21 @@
+{
+  "name": "chrome-extension-v3",
+  "version": "1.0.0",
+  "description": "A Chrome extension that provides various functionalities.",
+  "main": "background.js",
+  "scripts": {
+    "build": "echo 'Building the extension...'",
+    "test": "echo 'Running tests...'",
+    "lint": "echo 'Linting the code...'"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "web",
+    "browser"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
