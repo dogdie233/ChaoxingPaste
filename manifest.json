@@ -7,8 +7,10 @@
   "content_scripts": [
     {
       "matches": [
-        "*://mobilelearn.chaoxing.com/page/quiz/stu/reAnswerQuestion*",
-        "*://mobilelearn.chaoxing.com/page/quiz/stu/answerQuestion*"
+        "http://mobilelearn.chaoxing.com/page/quiz/stu/reAnswerQuestion*",
+        "http://mobilelearn.chaoxing.com/page/quiz/stu/answerQuestion*",
+        "https://mobilelearn.chaoxing.com/page/quiz/stu/reAnswerQuestion*",
+        "https://mobilelearn.chaoxing.com/page/quiz/stu/answerQuestion*"
       ],
       "js": ["content.js"],
       "world": "MAIN",
@@ -17,7 +19,8 @@
     },
     {
       "matches": [
-        "*://mooc2-ans.chaoxing.com/mooc2-ans/mycourse/stu*"
+        "http://mooc2-ans.chaoxing.com/mooc2-ans/mycourse/stu*",
+        "https://mooc2-ans.chaoxing.com/mooc2-ans/mycourse/stu*"
       ],
       "js": ["inject-stu.js"],
       "run_at": "document_end"
